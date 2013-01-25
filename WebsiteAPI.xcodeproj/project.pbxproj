@@ -17,12 +17,15 @@
 		969ACDB516A9E88A00B18525 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969ACDB416A9E88A00B18525 /* Default@2x.png */; };
 		969ACDB716A9E88A00B18525 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 969ACDB616A9E88A00B18525 /* Default-568h@2x.png */; };
 		969ACDBA16A9E88A00B18525 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969ACDB816A9E88A00B18525 /* MainStoryboard.storyboard */; };
-		969ACDBD16A9E88A00B18525 /* ERSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ACDBC16A9E88A00B18525 /* ERSViewController.m */; };
 		969ACDC516A9E88A00B18525 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969ACDC416A9E88A00B18525 /* SenTestingKit.framework */; };
 		969ACDC616A9E88A00B18525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969ACDA016A9E88A00B18525 /* UIKit.framework */; };
 		969ACDC716A9E88A00B18525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969ACDA216A9E88A00B18525 /* Foundation.framework */; };
 		969ACDCF16A9E88A00B18525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 969ACDCD16A9E88A00B18525 /* InfoPlist.strings */; };
 		969ACDD216A9E88A00B18525 /* WebsiteAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ACDD116A9E88A00B18525 /* WebsiteAPITests.m */; };
+		969ACDDD16A9E8D900B18525 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ACDDC16A9E8D900B18525 /* Parser.m */; };
+		969ACDE016A9E90200B18525 /* RSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ACDDF16A9E90200B18525 /* RSSViewController.m */; };
+		969ACDE416A9E96F00B18525 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ACDE316A9E96F00B18525 /* Record.m */; };
+		969ACDE716A9E98400B18525 /* Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 969ACDE616A9E98400B18525 /* Title.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +53,20 @@
 		969ACDB416A9E88A00B18525 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		969ACDB616A9E88A00B18525 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		969ACDB916A9E88A00B18525 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		969ACDBB16A9E88A00B18525 /* ERSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERSViewController.h; sourceTree = "<group>"; };
-		969ACDBC16A9E88A00B18525 /* ERSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERSViewController.m; sourceTree = "<group>"; };
 		969ACDC316A9E88A00B18525 /* WebsiteAPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebsiteAPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		969ACDC416A9E88A00B18525 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		969ACDCC16A9E88A00B18525 /* WebsiteAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebsiteAPITests-Info.plist"; sourceTree = "<group>"; };
 		969ACDCE16A9E88A00B18525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		969ACDD016A9E88A00B18525 /* WebsiteAPITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebsiteAPITests.h; sourceTree = "<group>"; };
 		969ACDD116A9E88A00B18525 /* WebsiteAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebsiteAPITests.m; sourceTree = "<group>"; };
+		969ACDDB16A9E8D900B18525 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		969ACDDC16A9E8D900B18525 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		969ACDDE16A9E90200B18525 /* RSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSViewController.h; path = ../RSSViewController.h; sourceTree = "<group>"; };
+		969ACDDF16A9E90200B18525 /* RSSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSViewController.m; path = ../RSSViewController.m; sourceTree = "<group>"; };
+		969ACDE216A9E96F00B18525 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		969ACDE316A9E96F00B18525 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		969ACDE516A9E98400B18525 /* Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Title.h; sourceTree = "<group>"; };
+		969ACDE616A9E98400B18525 /* Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Title.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,7 @@
 		969ACD9116A9E88A00B18525 = {
 			isa = PBXGroup;
 			children = (
+				969ACDE116A9E91400B18525 /* Model */,
 				969ACDA616A9E88A00B18525 /* WebsiteAPI */,
 				969ACDCA16A9E88A00B18525 /* WebsiteAPITests */,
 				969ACD9F16A9E88A00B18525 /* Frameworks */,
@@ -117,11 +127,11 @@
 		969ACDA616A9E88A00B18525 /* WebsiteAPI */ = {
 			isa = PBXGroup;
 			children = (
+				969ACDDE16A9E90200B18525 /* RSSViewController.h */,
+				969ACDDF16A9E90200B18525 /* RSSViewController.m */,
 				969ACDAF16A9E88A00B18525 /* ERSAppDelegate.h */,
 				969ACDB016A9E88A00B18525 /* ERSAppDelegate.m */,
 				969ACDB816A9E88A00B18525 /* MainStoryboard.storyboard */,
-				969ACDBB16A9E88A00B18525 /* ERSViewController.h */,
-				969ACDBC16A9E88A00B18525 /* ERSViewController.m */,
 				969ACDA716A9E88A00B18525 /* Supporting Files */,
 			);
 			path = WebsiteAPI;
@@ -158,6 +168,19 @@
 				969ACDCD16A9E88A00B18525 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		969ACDE116A9E91400B18525 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				969ACDE516A9E98400B18525 /* Title.h */,
+				969ACDE616A9E98400B18525 /* Title.m */,
+				969ACDE216A9E96F00B18525 /* Record.h */,
+				969ACDE316A9E96F00B18525 /* Record.m */,
+				969ACDDB16A9E8D900B18525 /* Parser.h */,
+				969ACDDC16A9E8D900B18525 /* Parser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +296,10 @@
 			files = (
 				969ACDAD16A9E88A00B18525 /* main.m in Sources */,
 				969ACDB116A9E88A00B18525 /* ERSAppDelegate.m in Sources */,
-				969ACDBD16A9E88A00B18525 /* ERSViewController.m in Sources */,
+				969ACDDD16A9E8D900B18525 /* Parser.m in Sources */,
+				969ACDE016A9E90200B18525 /* RSSViewController.m in Sources */,
+				969ACDE416A9E96F00B18525 /* Record.m in Sources */,
+				969ACDE716A9E98400B18525 /* Title.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
